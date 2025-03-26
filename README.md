@@ -48,7 +48,7 @@ pip install -r requirements.txt
 **Run the application:**
 
 ```bash
-streamlit run app.py
+streamlit run rag_deep.py
 ```
 
 Open your browser and navigate to `http://localhost:8501` to use the application.

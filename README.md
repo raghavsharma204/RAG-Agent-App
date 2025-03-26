@@ -2,70 +2,77 @@
 
 ### Your Intelligent Document Assistant powered by Streamlit and Ollama
 
-### Overview:
+---
 
-Saber AI Doc Scraper is a powerful yet intuitive tool that leverages cutting-edge NLP technology to help you quickly analyze, index, and query information directly from your PDF documents. Built with Streamlit for a user-friendly experience, Saber AI allows users to effortlessly extract meaningful insights using advanced semantic search and Large Language Models (LLMs).
+### Overview
+
+Saber AI Doc Scraper is a powerful yet intuitive tool leveraging cutting-edge NLP technology to quickly analyze, index, and query information directly from PDF documents. Built with Streamlit for ease of use, Saber AI effortlessly extracts meaningful insights using advanced semantic search and Large Language Models (LLMs).
+
+---
 
 ### Features
 
- - Easy PDF Upload: Instantly upload and process research papers, reports, or any PDF document.
+- **Easy PDF Upload:** Instantly upload and process research papers, reports, or any PDF documents.
+- **Semantic Search:** Quickly locate relevant sections within lengthy documents.
+- **Context-Aware Q&A:** Obtain concise, factual answers based on document context, powered by a fine-tuned Ollama LLM (`deepseek-r1:1.5b`).
+- **Responsive Interface:** Smooth, visually appealing UI featuring custom dark-mode styling for comfortable reading.
+- **Interactive Chat:** Engage naturally with your documents through conversational Q&A.
 
- - Semantic Search: Quickly find relevant sections within lengthy documents.
-
- - Context-Aware Q&A: Get concise and factual answers based on document context using a fine-tuned Ollama LLM (deepseek-r1:1.5b).
-
- - Responsive Interface: Smooth, visually appealing UI with custom dark-mode styling for comfortable reading.
-
- - Interactive Chat: Engage naturally with your documents through conversational Q&A.
+---
 
 ### Technologies Used
 
- - **Streamlit: Interactive web app framework for rapid application development.
+- **Streamlit:** Interactive web application framework for rapid development.
+- **LangChain:** Toolkit for robust document processing, embeddings, and LLM integration.
+- **Ollama Embeddings:** Efficient, local vector embeddings for fast semantic retrieval.
+- **Ollama LLM (`deepseek-r1:1.5b`):** Lightweight yet powerful language model delivering accurate and contextually relevant responses.
+- **PDFPlumber:** Precise PDF parsing and text extraction.
 
- - **LangChain: Robust toolkit for document processing, embeddings, and LLM integration.
-
- - **Ollama Embeddings: Efficient, local vector embeddings for rapid semantic retrieval.
-
- - **Ollama LLM (deepseek-r1:1.5b): Lightweight yet powerful language model for accurate and contextually relevant responses.
-
- - **PDFPlumber: Precise PDF parsing and text extraction.
+---
 
 ### Installation & Usage
 
-Clone the repository:
+**Clone the repository:**
 
-'''git clone [repository_link]
+```bash
+git clone [repository_link]
 cd saber-ai-doc-scraper
+```
 
-Install dependencies:
+**Install dependencies:**
 
+```bash
 pip install -r requirements.txt
+```
 
-Run the application:
+**Run the application:**
 
+```bash
 streamlit run app.py
+```
 
-Navigate to http://localhost:8501 in your browser to access the app.
+Open your browser and navigate to `http://localhost:8501` to use the application.
 
-Workflow
+---
 
-Upload a PDF document through the user-friendly interface.
+### Workflow
 
-Saber AI processes and indexes the content using semantic embeddings.
+1. Upload your PDF document using the intuitive interface.
+2. Saber AI processes and indexes document content using semantic embeddings.
+3. Ask questions directly related to the document.
+4. Instantly receive concise, contextually accurate answers.
 
-Ask questions directly about the document contents.
+---
 
-Receive concise, contextually accurate answers instantly.
+### Future Enhancements
 
-Future Enhancements
+- Batch document upload support.
+- Advanced analytics for deeper document insights.
+- Integration with additional LLM models.
 
-Support for batch document uploads.
+---
 
-Advanced analytics for document insights.
+### Contributions
 
-Integration with additional LLM models for varied use cases.
-
-Contributions
-
-Contributions and feedback are welcome! Feel free to submit issues or pull requests to help improve this tool.
+Feedback and contributions are warmly welcomed! Feel free to submit issues or pull requests to enhance this tool.
 

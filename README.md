@@ -1,40 +1,40 @@
-**Saber AI Doc Scraper**
+## Saber AI Doc Scraper
 
-**Your Intelligent Document Assistant powered by Streamlit and Ollama**
+### Your Intelligent Document Assistant powered by Streamlit and Ollama
 
-Overview:
+### Overview:
 
 Saber AI Doc Scraper is a powerful yet intuitive tool that leverages cutting-edge NLP technology to help you quickly analyze, index, and query information directly from your PDF documents. Built with Streamlit for a user-friendly experience, Saber AI allows users to effortlessly extract meaningful insights using advanced semantic search and Large Language Models (LLMs).
 
-Features
+### Features
 
-Easy PDF Upload: Instantly upload and process research papers, reports, or any PDF document.
+ - Easy PDF Upload: Instantly upload and process research papers, reports, or any PDF document.
 
-Semantic Search: Quickly find relevant sections within lengthy documents.
+ - Semantic Search: Quickly find relevant sections within lengthy documents.
 
-Context-Aware Q&A: Get concise and factual answers based on document context using a fine-tuned Ollama LLM (deepseek-r1:1.5b).
+ - Context-Aware Q&A: Get concise and factual answers based on document context using a fine-tuned Ollama LLM (deepseek-r1:1.5b).
 
-Responsive Interface: Smooth, visually appealing UI with custom dark-mode styling for comfortable reading.
+ - Responsive Interface: Smooth, visually appealing UI with custom dark-mode styling for comfortable reading.
 
-Interactive Chat: Engage naturally with your documents through conversational Q&A.
+ - Interactive Chat: Engage naturally with your documents through conversational Q&A.
 
-Technologies Used
+### Technologies Used
 
-Streamlit: Interactive web app framework for rapid application development.
+ - **Streamlit: Interactive web app framework for rapid application development.
 
-LangChain: Robust toolkit for document processing, embeddings, and LLM integration.
+ - **LangChain: Robust toolkit for document processing, embeddings, and LLM integration.
 
-Ollama Embeddings: Efficient, local vector embeddings for rapid semantic retrieval.
+ - **Ollama Embeddings: Efficient, local vector embeddings for rapid semantic retrieval.
 
-Ollama LLM (deepseek-r1:1.5b): Lightweight yet powerful language model for accurate and contextually relevant responses.
+ - **Ollama LLM (deepseek-r1:1.5b): Lightweight yet powerful language model for accurate and contextually relevant responses.
 
-PDFPlumber: Precise PDF parsing and text extraction.
+ - **PDFPlumber: Precise PDF parsing and text extraction.
 
-Installation & Usage
+### Installation & Usage
 
 Clone the repository:
 
-git clone [repository_link]
+'''git clone [repository_link]
 cd saber-ai-doc-scraper
 
 Install dependencies:

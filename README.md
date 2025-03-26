@@ -1,8 +1,8 @@
-Saber AI Doc Scraper
+**Saber AI Doc Scraper**
 
-Your Intelligent Document Assistant powered by Streamlit and Ollama
+**Your Intelligent Document Assistant powered by Streamlit and Ollama**
 
-Overview
+Overview:
 
 Saber AI Doc Scraper is a powerful yet intuitive tool that leverages cutting-edge NLP technology to help you quickly analyze, index, and query information directly from your PDF documents. Built with Streamlit for a user-friendly experience, Saber AI allows users to effortlessly extract meaningful insights using advanced semantic search and Large Language Models (LLMs).
 
